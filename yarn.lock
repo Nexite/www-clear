@@ -1318,11 +1318,10 @@
   dependencies:
     "@chakra-ui/utils" "1.10.4"
 
-"@codeday/eslint-config@^2.1.4":
+"@codeday/eslint-config@file:.yalc/@codeday/eslint-config":
   version "2.1.4"
-  resolved "https://registry.yarnpkg.com/@codeday/eslint-config/-/eslint-config-2.1.4.tgz#535a96f14f4ce2a745b132105e12fd2d0d006cf7"
-  integrity sha512-T7L2qbl2nAuyZP3VfuQtL9Efu+FRCrxOLRxAS/L7Ymok0ZSgVLJbGUw5jAvXiLwHoYuc1aucdL2EG13iKDEBiw==
   dependencies:
+    "@tophat/eslint-import-resolver-require" "^0.1.3"
     eslint-config-airbnb "^18.1.0"
     eslint-plugin-import "^2.19.1"
     eslint-plugin-jsx-a11y "^6.2.3"
@@ -1762,6 +1761,11 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-2.0.0.tgz#f544a148d3ab35801c1f633a7441fd87c2e484bf"
   integrity sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==
 
+"@tophat/eslint-import-resolver-require@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@tophat/eslint-import-resolver-require/-/eslint-import-resolver-require-0.1.3.tgz#ad84599963d118b2f9ed2adf953948ca1188418e"
+  integrity sha512-5ROd29rbmIKCpufeN6AoOyZn4/DWR80K4e0Dza118iJl1tWc+Chgau527/vd0Y0nN20ce5edx+qBUhxrUmcVCQ==
+
 "@tsconfig/node10@^1.0.7":
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@tsconfig/node10/-/node10-1.0.8.tgz#c1e4e80d6f964fbecb3359c43bd48b40f7cadad9"
@@ -1846,15 +1850,6 @@
   version "18.0.9"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.9.tgz#d6712a38bd6cd83469603e7359511126f122e878"
   integrity sha512-9bjbg1hJHUm4De19L1cHiW0Jvx3geel6Qczhjd0qY5VKVE2X5+x77YxAepuCwVh4vrgZJdgEJw48zrhRIeF4Nw==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@^16.9.35":
-  version "16.14.26"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.26.tgz#82540a240ba7207ebe87d9579051bc19c9ef7605"
-  integrity sha512-c/5CYyciOO4XdFcNhZW1O2woVx86k4T+DO2RorHZL7EhitkNQgSD/SgpdZJAUJa/qjVgOmTM44gHkAdZSXeQuQ==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -3488,7 +3483,7 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz#f65328259305927392c938ed44eb0a5c9b2bd303"
   integrity sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==
 
-eslint@^7.32.0:
+eslint@^7.5.0:
   version "7.32.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.32.0.tgz#c6d328a14be3fb08c8d1d21e12c02fdb7a2a812d"
   integrity sha512-VHZ8gX+EDfz+97jGcgyGCyRia/dPOd6Xh9yPv8Bl1+SoaIwD+a/vlrOmGRUyOYu7MwUhc7CxqeaDZU13S4+EpA==

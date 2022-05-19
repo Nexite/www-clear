@@ -59,10 +59,10 @@
     "three": "^0.134.0"
   },
   "devDependencies": {
-    "@codeday/eslint-config": "^2.1.4",
+    "@codeday/eslint-config": "file:.yalc/@codeday/eslint-config",
     "@next/bundle-analyzer": "^12.1.5",
     "cross-env": "^7.0.3",
-    "eslint": "^7.32.0",
+    "eslint": "^7.5.0",
     "eslint-config-next": "11.1.0",
     "npm-check": "^5.9.2"
   }

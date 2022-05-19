@@ -1,0 +1,29 @@
+{
+  "name": "@codeday/eslint-config",
+  "main": "index.js",
+  "bin": {
+    "eslint-init": "./bin/init.js"
+  },
+  "version": "2.1.4",
+  "license": "Artistic-2.0",
+  "keywords": [
+    "eslint",
+    "eslintconifg"
+  ],
+  "author": "Tyler Menezes <tylermenezes@srnd.org>",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "@tophat/eslint-import-resolver-require": "^0.1.3",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-no-secrets": "^0.6.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint-plugin-sonarjs": "^0.5.0"
+  },
+  "yalcSig": "0bec310c32812840fa38a414ed212bb0"
+}
